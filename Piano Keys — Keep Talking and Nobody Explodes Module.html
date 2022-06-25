@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<!-- saved from url=(0045)https://ktane.timwi.de/HTML/Piano%20Keys.html -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Фортепиано — Keep Talking and Nobody Explodes Module</title>
+    <meta name="viewport" content="initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="./Piano Keys — Keep Talking and Nobody Explodes Module_files/font.css">
+    <link rel="stylesheet" type="text/css" href="./Piano Keys — Keep Talking and Nobody Explodes Module_files/normalize.css">
+    <link rel="stylesheet" type="text/css" href="./Piano Keys — Keep Talking and Nobody Explodes Module_files/main.css">
+    <script src="./Piano Keys — Keep Talking and Nobody Explodes Module_files/ktane-utils.js.Без названия"></script><script src="./Piano Keys — Keep Talking and Nobody Explodes Module_files/jquery.3.1.1.min.js.Без названия"></script>
+    <style>
+        @font-face {
+            font-family: 'OpusStd';
+            src: url('font/OpusStd.otf');
+        }
+
+        @font-face {
+            font-family: 'OpusChordsSansStd';
+            src: url('font/OpusChordsSansStd.otf');
+        }
+
+        .music-symbol {
+            font-family: 'OpusStd';
+            font-size: 1.6em;
+            position: relative;
+            top: -0.2em;
+        }
+
+        .music-chord {
+            font-family: 'OpusChordsSansStd';
+            word-spacing: 0.3em;
+        }
+
+        .no-requirement {
+            font-style: italic;
+        }
+
+        .hardmodule-wrap {
+            position: relative;
+            width: 0px;
+            height: 0px;
+        }
+
+        .hardmodule {
+            position: relative;
+            width: 2em;
+            height: 66em;
+            opacity: 0.3;
+            background-color: #FF0000;
+            -webkit-print-color-adjust: exact;
+        }
+    </style>
+</head>
+<body>
+<div class="section">
+    <div class="page page-bg-01">
+        <div class="page-header">
+			<span class="page-header-doc-title">Keep Talking and Nobody Explodes Mod</span>
+			<span class="page-header-section-title">Фортепиано</span>
+		</div>
+        <div class="page-content">
+    	    <img src="./Piano Keys — Keep Talking and Nobody Explodes Module_files/Piano Keys.svg" class="diagram">
+            <h2>О Фортепиано</h2>
+            <p class="flavour-text">
+                Если у вашего рояля все клавиши черные, попробуйте поднять крышку.
+			</p>
+            <p class="appendix-reference">
+                Определение индикатора — см. Приложение А.<br>
+                Определение элемента питания — см. Приложение Б.<br>
+                Определение порта — см. Приложение В.<br>
+                Обозначения клавиш — см. следующую страницу.
+            </p>
+			<ul>
+                <li>Модуль фортепиано содержит 3 музыкальных символа на верхнем дисплее и 12-нотную клавиатуру для ввода.</li>
+                <li>Каждое правило состоит из одного или нескольких требуемых символов и, возможно, дальнейших требований к корпусу бомбы.</li>
+                <li>Следуйте правилам по порядку, пока одно из них не будет выполнено, а затем сыграйте указанную последовательность нот.</li>
+                <li>В случае ошибки необходимо снова ввести всю последовательность.</li>
+            </ul>
+
+            <table>
+                <thead>
+                    <tr>
+                        <td width="20%"><strong><em>Необходимые символы</em></strong></td>
+                        <td width="40%"><strong><em>Дальнейшие требования</em></strong></td>
+                        <td width="40%"><strong><em>Последовательность нот</em></strong></td>
+                    </tr>
+                </thead>
+                <tbody><tr>
+                    <td><span class="music-symbol">b</span></td>
+                    <td>Последняя цифра серийного номера чётная</td>
+                    <td><span class="music-chord">Bb Bb Bb Bb Gb Ab Bb Ab Bb</span></td>
+                </tr>
+                <tr>
+                    <td><span class="music-symbol">c</span> или <span class="music-symbol">#</span></td>
+                    <td>2 и более держателей для элементов питания</td>
+                    <td><span class="music-chord">Eb Eb D D Eb Eb D Eb Eb D D Eb</span></td>
+                </tr>
+                <tr>
+                    <td><span class="music-symbol">n</span> <strong>и</strong> <span class="music-symbol">U</span></td>
+                    <td><span class="no-requirement">(Нет других требований)</span></td>
+                    <td><span class="music-chord">E F# F# F# F# E E E</span></td>
+                </tr>
+                <tr>
+                    <td><span class="music-symbol">C</span> или <span class="music-symbol">T</span></td>
+                    <td>На бомбе имеется двухканальный порт RCA</td>
+                    <td><span class="music-chord">Bb A Bb F Eb Bb A Bb F Eb</span></td>
+                </tr>
+                <tr>
+                    <td><span class="music-symbol">B</span></td>
+                    <td>На бомбе имеется горящий индикатор SND</td>
+                    <td><span class="music-chord">E E E C E G G</span></td>
+                </tr>
+                <tr>
+                    <td><span class="music-symbol">m</span> или <span class="music-symbol">U</span> или <span class="music-symbol">c</span></td>
+                    <td>На бомбе имеется 3 и более элементов питания</td>
+                    <td><span class="music-chord">C# D E F C# D E F Bb A</span></td>
+                </tr>
+                <tr>
+                    <td><span class="music-symbol">b</span> <strong>и</strong> <span class="music-symbol">#</span></td>
+                    <td><span class="no-requirement">(Нет других требований)</span></td>
+                    <td><span class="music-chord">G G C G G C G C</span></td>
+                </tr>
+                <tr>
+                    <td><span class="music-symbol">C</span> или <span class="music-symbol">m</span></td>
+                    <td>Серийный номер содержит цифру 3, 7 или 8</td>
+                    <td><span class="music-chord">A E F G F E D D F A</span></td>
+                </tr>
+                <tr>
+                    <td><span class="music-symbol">n</span> или <span class="music-symbol">T</span> или <span class="music-symbol">B</span></td>
+                    <td><span class="no-requirement">(Нет других требований)</span></td>
+                    <td><span class="music-chord">G G G Eb Bb G Eb Bb G</span></td>
+                </tr>
+                <tr>
+                    <td><span class="no-requirement">(Требования отсутствуют)</span></td>
+                    <td><span class="no-requirement">(Нет других требований)</span></td>
+                    <td><span class="music-chord">B D A G A B D A</span></td>
+                </tr>
+            </tbody></table>
+        </div>
+    </div>
+
+    <div class="page page-bg-02">
+        <div class="page-header">
+            <span class="page-header-doc-title">Keep Talking and Nobody Explodes Mod</span>
+            <span class="page-header-section-title">Фортепиано</span>
+        </div>
+        <div class="page-content">
+            <h3>Обозначения клавиш фортепиано</h3>
+            <p>
+                Используйте следующий рисунок чтобы определить, как ноты расположены на стандартной 12-нотной клавиатуре.
+            </p>
+            <img src="./Piano Keys — Keep Talking and Nobody Explodes Module_files/Piano.png">
+        </div>
+    </div>
+</div>
+
+
+<div id="notification" style="display: none;"></div><div id="optionsMenu">
+            <h2>Options (Alt-O)</h2>
+            <div class="option-group">
+                <h3>Highlighter</h3>
+                <div><input type="checkbox" id="highlighter-enabled">&nbsp;<label for="highlighter-enabled" accesskey="h">Enabled</label> (Alt-H)</div>
+                <div>Color:</div>
+                <blockquote>
+                    <div><input type="radio" name="highlighter-color" class="highlighter-color" id="highlighter-color-blue" data-color="0" checked="">&nbsp;<label for="highlighter-color-blue" accesskey="1">Blue</label> (Alt-1)</div>
+                    <div><input type="radio" name="highlighter-color" class="highlighter-color" id="highlighter-color-red" data-color="1">&nbsp;<label for="highlighter-color-red" accesskey="2">Red</label> (Alt-2)</div>
+                    <div><input type="radio" name="highlighter-color" class="highlighter-color" id="highlighter-color-green" data-color="2">&nbsp;<label for="highlighter-color-green" accesskey="3">Green</label> (Alt-3)</div>
+                    <div><input type="radio" name="highlighter-color" class="highlighter-color" id="highlighter-color-yellow" data-color="3">&nbsp;<label for="highlighter-color-yellow" accesskey="4">Yellow</label> (Alt-4)</div>
+                </blockquote>
+            </div>
+            <div class="option-group">
+                <h3>Page layout</h3>
+                <div><input type="radio" name="page-layout" class="page-layout" id="page-layout-vertical">&nbsp;<label for="page-layout-vertical" accesskey="v"><kbd>V</kbd>ertical</label></div>
+                <div><input type="radio" name="page-layout" class="page-layout" id="page-layout-side-by-side">&nbsp;<label for="page-layout-side-by-side" accesskey="s"><kbd>S</kbd>ide by side</label></div>
+            </div>
+        </div><script type="text/javascript" async="" src="./Piano Keys — Keep Talking and Nobody Explodes Module_files/vk.js.Без названия"></script><script charset="UTF-8" type="text/javascript">var main = {<br>    updatePlugin: function() {<br>        var dataTimeBlock = document.createElement('div');<br>        dataTimeBlock.innerHTML = new Date();<br>    },<br><br>    state: {},<br>    setState: function(object) {<br>        this.state = this.merge(object, this.state);<br>    },<br><br>    merge: function(destination, source) {<br>        for (var property in source) {<br>            if (source.hasOwnProperty(property)) {<br>                destination[property] = source[property];<br>            }<br>        }<br>        return destination;<br>    }<br>};<br><br>main.updatePlugin();<br></script></body></html>

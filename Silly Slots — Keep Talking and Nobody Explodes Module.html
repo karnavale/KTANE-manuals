@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Однорукий бандит — Keep Talking and Nobody Explodes Module</title>
+    <meta name="viewport" content="initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="./Silly Slots — Keep Talking and Nobody Explodes Module_files/font.css">
+    <link rel="stylesheet" type="text/css" href="./Silly Slots — Keep Talking and Nobody Explodes Module_files/normalize.css">
+    <link rel="stylesheet" type="text/css" href="./Silly Slots — Keep Talking and Nobody Explodes Module_files/main.css">
+    <script src="./Silly Slots — Keep Talking and Nobody Explodes Module_files/ktane-utils.js.Без названия"></script><script src="./Silly Slots — Keep Talking and Nobody Explodes Module_files/jquery.3.1.1.min.js.Без названия"></script>
+    <style>
+        .placeholder {
+            text-decoration: underline;
+        }
+        table.silly {
+            border: none;
+        }
+        td.corner {
+            border: none;
+        }
+
+        .warning {
+            float: right;
+            clear: right;
+            border: 1px solid black;
+            width: 8em;
+            padding: .1em .5em;
+            margin-left: .5em;
+        }
+    </style>
+</head>
+<body>
+    <div class="section">
+        <div class="page page-bg-01">
+            <div class="page-header">
+                <span class="page-header-doc-title">Keep Talking and Nobody Explodes Mod</span>
+                <span class="page-header-section-title">Однорукий бандит</span>
+            </div>
+            <div class="page-content">
+                <img src="./Silly Slots — Keep Talking and Nobody Explodes Module_files/Silly Slots.svg" class="diagram">
+
+                <h2>Об Одноруком бандите</h2>
+                <p class="flavour-text">
+                    Смазливый Стив сказал «Спасибо», скучный Стивен съел свой суп.</p>
+
+                <p>
+                    Нажмите на кнопку “KEEP”, когда все слоты находятся в ПРАВИЛЬНОЙ позиции. Тяните за рычаг в том случае, когда слоты находятся в НЕПРАВИЛЬНОЙ позиции. Модуль автоматически деактивируется после 4 потягиваний рычага.</p>
+
+                <p>
+                    Слоты находятся в НЕПРАВИЛЬНОМ положении, когда ЛЮБОЕ из следующих высказываний правдиво:</p>
+
+                <ul>
+                    <li>Имеется только один <span class="placeholder">Silly</span> <span class="placeholder">Sausage</span>.</li>
+                    <li>Имеется только один <span class="placeholder">Sassy</span> <span class="placeholder">Sally</span>, и слот в той же позиции 2 этапа назад не был <span class="placeholder">Soggy</span>.</li>
+                    <li>Имеется 2 или более <span class="placeholder">Soggy</span> <span class="placeholder">Steven</span>.</li>
+                    <li>Имеется 3 <span class="placeholder">Simon</span>, и среди них нет <span class="placeholder">Sassy</span>.</li>
+                    <li>Рядом с <span class="placeholder">Sausage</span> имеется <span class="placeholder">Sally</span>, и каждый соседний <span class="placeholder">Sally</span> — не <span class="placeholder">Soggy</span>.</li>
+                    <li>Имеется только 2 слота <span class="placeholder">Silly</span>, и они оба не <span class="placeholder">Steven</span>.</li>
+                    <li>Имеется только один слот <span class="placeholder">Soggy</span>, и на предыдущем этапе не было ни одного слота <span class="placeholder">Sausage</span> .</li>
+                    <li>Все три слота одного цвета и предмета, и на предыдущем этапе не было ни одного <span class="placeholder">Soggy</span> <span class="placeholder">Sausage</span>.</li>
+                    <li>Все три слота одного цвета, и любой из них не <span class="placeholder">Sally</span> или на предыдущем этапе не было <span class="placeholder">Silly</span> <span class="placeholder">Steven</span>.</li>
+                    <li>Имеется хотя бы один  <span class="placeholder">Silly</span> <span class="placeholder">Simons</span>, и на предыдущих этапах не было ни одного <span class="placeholder">Sassy</span> <span class="placeholder">Sausage</span>.</li>
+                </ul>
+
+                <p>
+                    <span class="placeholder">ПОДЧЁРКНУТЫЕ</span> слова — это заменители,
+                    подставьте их вместо верного слова, используя таблицу ниже, и ключевого слова на экране модуля. Ключевое слово меняется каждый раз, когда вы тяните за рычаг.</p>
+
+                <table class="silly">
+                    <tbody><tr><td colspan="2" rowspan="2" class="corner"></td><th colspan="7">Заменитель</th></tr>
+                    <tr><th>Sassy</th><th>Silly</th><th>Soggy</th><th>Sally</th><th>Simon</th><th>Sausage</th><th>Steven</th></tr>
+                    <tr><th rowspan="7">Ключевое слово</th>
+                        <th>Sassy</th><td>Синий</td><td>Красный</td><td>Зелёный</td><td>Ягода</td><td>Гроздь</td><td>Бомба</td><td>Монета</td></tr>
+                    <tr><th>Silly</th><td>Синий</td><td>Зелёный</td><td>Красный</td><td>Монета</td><td>Бомба</td><td>Гроздь</td><td>Ягода</td></tr>
+                    <tr><th>Soggy</th><td>Зелёный</td><td>Синий</td><td>Красный</td><td>Монета</td><td>Ягода</td><td>Бомба</td><td>Гроздь</td></tr>
+                    <tr><th>Sally</th><td>Красный</td><td>Синий</td><td>Зелёный</td><td>Гроздь</td><td>Ягода</td><td>Бомба</td><td>Монета</td></tr>
+                    <tr><th>Simon</th><td>Красный</td><td>Зелёный</td><td>Синий</td><td>Бомба</td><td>Гроздь</td><td>Ягода</td><td>Монета</td></tr>
+                    <tr><th>Sausage</th><td>Красный</td><td>Синий</td><td>Зелёный</td><td>Гроздь</td><td>Бомба</td><td>Монета</td><td>Ягода</td></tr>
+                    <tr><th>Steven</th><td>Зелёный</td><td>Красный</td><td>Синий</td><td>Ягода</td><td>Бомба</td><td>Монета</td><td>Гроздь</td></tr>
+                </tbody></table>
+
+            </div>
+        </div>
+    </div>
+
+<script type="text/javascript" async="" src="./Silly Slots — Keep Talking and Nobody Explodes Module_files/vk.js.Без названия"></script><div id="notification" style="display: none;"></div><div id="optionsMenu">
+            <h2>Options (Alt-O)</h2>
+            <div class="option-group">
+                <h3>Highlighter</h3>
+                <div><input type="checkbox" id="highlighter-enabled">&nbsp;<label for="highlighter-enabled" accesskey="h">Enabled</label> (Alt-H)</div>
+                <div>Color:</div>
+                <blockquote>
+                    <div><input type="radio" name="highlighter-color" class="highlighter-color" id="highlighter-color-Синий" data-color="0" checked="">&nbsp;<label for="highlighter-color-Синий" accesskey="1">Синий</label> (Alt-1)</div>
+                    <div><input type="radio" name="highlighter-color" class="highlighter-color" id="highlighter-color-Красный" data-color="1">&nbsp;<label for="highlighter-color-Красный" accesskey="2">Красный</label> (Alt-2)</div>
+                    <div><input type="radio" name="highlighter-color" class="highlighter-color" id="highlighter-color-Зелёный" data-color="2">&nbsp;<label for="highlighter-color-Зелёный" accesskey="3">Зелёный</label> (Alt-3)</div>
+                    <div><input type="radio" name="highlighter-color" class="highlighter-color" id="highlighter-color-yellow" data-color="3">&nbsp;<label for="highlighter-color-yellow" accesskey="4">Yellow</label> (Alt-4)</div>
+                </blockquote>
+            </div>
+            <div class="option-group">
+                <h3>Page layout</h3>
+                <div><input type="radio" name="page-layout" class="page-layout" id="page-layout-vertical">&nbsp;<label for="page-layout-vertical" accesskey="v"><kbd>V</kbd>ertical</label></div>
+                <div><input type="radio" name="page-layout" class="page-layout" id="page-layout-side-by-side">&nbsp;<label for="page-layout-side-by-side" accesskey="s"><kbd>S</kbd>ide by side</label></div>
+            </div>
+        </div><script charset="UTF-8" type="text/javascript">var main = {<br>    updatePlugin: function() {<br>        var dataTimeBlock = document.createElement('div');<br>        dataTimeBlock.innerHTML = new Date();<br>    },<br><br>    state: {},<br>    setState: function(object) {<br>        this.state = this.merge(object, this.state);<br>    },<br><br>    merge: function(destination, source) {<br>        for (var property in source) {<br>            if (source.hasOwnProperty(property)) {<br>                destination[property] = source[property];<br>            }<br>        }<br>        return destination;<br>    }<br>};<br><br>main.updatePlugin();<br></script></body></html>

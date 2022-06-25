@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<!-- saved from url=(0044)https://ktane.timwi.de/HTML/The%20Screw.html -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Отвёртка — Keep Talking and Nobody Explodes Mod</title>
+    <meta name="viewport" content="initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="./The Screw — Keep Talking and Nobody Explodes Mod_files/font.css">
+    <link rel="stylesheet" type="text/css" href="./The Screw — Keep Talking and Nobody Explodes Mod_files/normalize.css">
+    <link rel="stylesheet" type="text/css" href="./The Screw — Keep Talking and Nobody Explodes Mod_files/main.css">
+    <script src="./The Screw — Keep Talking and Nobody Explodes Mod_files/ktane-utils.js.Без названия"></script><script src="./The Screw — Keep Talking and Nobody Explodes Mod_files/jquery.3.1.1.min.js.Без названия"></script>
+    <style>
+        .boxed {
+            border: 3px solid black;
+            padding-left: 3px;
+            line-height: 105%;
+        }
+    </style>
+</head>
+<body>
+    <div class="section">
+        <div class="page page-bg-02">
+            <div class="page-header">
+                <span class="page-header-doc-title">Keep Talking and Nobody Explodes Mod</span>
+                <span class="page-header-section-title">Отвёртка</span>
+            </div>
+            <div class="page-content">
+                <img src="./The Screw — Keep Talking and Nobody Explodes Mod_files/The Screw.svg" class="diagram">
+                <h2>Отвёртка</h2>
+                <p class="flavour-text">
+                    У вас есть Кровавая Мэри? Нет? Тогда мне отвёртку.
+                </p>
+
+                <ul>
+                    <li>На данном модуле имеются 4 кнопки A, B, C и D.</li>
+                    <li>Под ними расположено 6 отверстий с цветными контурами.</li>
+                    <li>Функции кнопок меняются в соответствии с тем, в каком из отверстий находится винт.</li>
+                    <li>При нажатии неверной кнопки модуль зафиксирует ошибку. Однако, если вы закрутите винт не в то отверстие, ошибки не будет, вы всегда можете безопасно поменять местоположение винта перед нажатием одной из кнопок.</li>
+                    <li>Кнопки не дают решить модуль или зафиксировать ошибку, если перед нажатием винт не был закручен в одно из отверстий.</li>
+                    <li>В начале решения модуля винт всегда находится в левом верхнем отверстии.</li>
+                    <li>Для выполнения этапа, вы должны вытащить винт из отверстия, в котором он сейчас находит, закрутить его в следующее отверстие и нажать на верную кнопку.</li>
+                    <li>Экран сверху слева показывает текущий этап модуля.</li>
+                    <li>Как только три этапа будут успешно пройдены, модуль деактивируется.</li>
+                </ul>
+
+                <h3>Во-первых, определите, в отверстие какого цвета необходимо закрутить винт.</h3>
+                <ul>
+                    <li>Цветные контуры пронумерованы по порядку, от 1 до 6.</li>
+                    <li>Местоположение отверстия на первом этапе определяется числом элементов питания + количество негорящих индикаторов.</li>
+                    <li>Местоположение отверстия на втором этапе определяется самой правой цифрой в серийном номере + количество горящих индикаторов.</li>
+                    <li>Местоположение отверстия на третьем этапе определяется числом портов + количество держателей для элементов питания.</li>
+                    <li>Если верное отверстие уже было занято винтом на предыдущем этапе, закрутите винт в следующее отверстие, идущее по порядку.</li>
+                    <li>Если значение больше или равно 7, вычитайте 6 до тех пор, пока оно не станет в пределах 1-6. Если же значение равно 0, возьмите 1 вместо него.</li>
+                </ul>
+            </div>
+            <div class="page-footer relative-footer">Стр. 1 из 2</div>
+        </div>
+
+        <div class="page page-bg-04">
+            <div class="page-header">
+                <span class="page-header-doc-title">Keep Talking and Nobody Explodes Mod</span>
+                <span class="page-header-section-title">Отвёртка</span>
+            </div>
+            <div class="page-content">
+
+                <h3>Во-вторых, определите, какую кнопку следует нажать, чтобы перейти на следующий этап:</h3>
+                <div class="boxed">
+                    <h3>Цвет контура красный, жёлтый или зелёный:</h3>
+                    <h4>Если винт находится в верхнем ряду:</h4>
+                    <ul>
+                        <li>Если номер отверстия с винтом в ряду равен количеству держателей для элементов питания, нажмите на 4-ую кнопку.</li>
+                        <li>Иначе, если буква A находится на первом или третьем месте, нажмите на кнопку C.</li>
+                        <li>Иначе, если на бомбе имеются индикаторы CLR, FRK, или TRN, нажмите на 3-ью кнопку.</li>
+                        <li>Иначе, если винт находится в том же ряду, что и синее отверстие, нажмите на 1-ую кнопку.</li>
+                        <li>Иначе нажмите на кнопку B.</li>
+                    </ul>
+
+                    <h4>Если винт находится в нижнем ряду:</h4>
+                    <ul>
+                        <li>Если номер отверстия с винтом в ряду равен количеству типов портов, нажмите на 2-ую кнопку.</li>
+                        <li>Иначе, если номер отверстия с винтом в ряду равен количеству элементов питания, нажмите на кнопку D.</li>
+                        <li>Иначе, если винт не находится вертикально напротив белого отверстия, нажмите на кнопку A.</li>
+                        <li>Иначе, если винт соседствует по бокам с розовым отверстием, нажмите на кнопку C.</li>
+                        <li>Иначе нажмите на 1-ую кнопку.</li>
+                    </ul>
+
+                    <h3>Цвет контура синий, розовый или белый:</h3>
+                    <h4>Если винт находится в верхнем ряду:</h4>
+                    <ul>
+                        <li>Если номер отверстия с винтом в ряду равен количеству типов портов, нажмите на кнопку D.</li>
+                        <li>Иначе, если буква С находится на втором или четвертом месте, нажмите на кнопку B.</li>
+                        <li>Иначе, если на бомбе имеются индикаторы CAR, FRQ, или SND, нажмите на 4-ую кнопку.</li>
+                        <li>Иначе, если винт находится в том же ряду, что и красное отверстие, нажмите на 2-ую кнопку.</li>
+                        <li>Иначе нажмите на кнопку A.</li>
+                    </ul>
+
+                    <h4>Если винт находится в нижнем ряду:</h4>
+                    <ul>
+                        <li>Если номер отверстия с винтом в ряду равен количеству пластин для портов, нажмите на 2-ую кнопку.</li>
+                        <li>Иначе, если номер отверстия с винтом в ряду равен общему количеству индикаторов, нажмите на кнопку A.</li>
+                        <li>Иначе, если винт соседствует по бокам с жёлтым отверстием, нажмите на кнопку C.</li>
+                        <li>Иначе, если винт не находится вертикально напротив зелёного отверстия, нажмите на кнопку D.</li>
+                        <li>Иначе нажмите на 4-ую кнопку.</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="page-footer relative-footer">Стр. 2 из 2</div>
+        </div>
+    </div>
+
+
+<div id="notification" style="display: none;"></div><div id="optionsMenu">
+            <h2>Options (Alt-O)</h2>
+            <div class="option-group">
+                <h3>Highlighter</h3>
+                <div><input type="checkbox" id="highlighter-enabled">&nbsp;<label for="highlighter-enabled" accesskey="h">Enabled</label> (Alt-H)</div>
+                <div>Color:</div>
+                <blockquote>
+                    <div><input type="radio" name="highlighter-color" class="highlighter-color" id="highlighter-color-blue" data-color="0" checked="">&nbsp;<label for="highlighter-color-blue" accesskey="1">Blue</label> (Alt-1)</div>
+                    <div><input type="radio" name="highlighter-color" class="highlighter-color" id="highlighter-color-red" data-color="1">&nbsp;<label for="highlighter-color-red" accesskey="2">Red</label> (Alt-2)</div>
+                    <div><input type="radio" name="highlighter-color" class="highlighter-color" id="highlighter-color-green" data-color="2">&nbsp;<label for="highlighter-color-green" accesskey="3">Green</label> (Alt-3)</div>
+                    <div><input type="radio" name="highlighter-color" class="highlighter-color" id="highlighter-color-yellow" data-color="3">&nbsp;<label for="highlighter-color-yellow" accesskey="4">Yellow</label> (Alt-4)</div>
+                </blockquote>
+            </div>
+            <div class="option-group">
+                <h3>Page layout</h3>
+                <div><input type="radio" name="page-layout" class="page-layout" id="page-layout-vertical">&nbsp;<label for="page-layout-vertical" accesskey="v"><kbd>V</kbd>ertical</label></div>
+                <div><input type="radio" name="page-layout" class="page-layout" id="page-layout-side-by-side">&nbsp;<label for="page-layout-side-by-side" accesskey="s"><kbd>S</kbd>ide by side</label></div>
+            </div>
+        </div><script type="text/javascript" async="" src="./The Screw — Keep Talking and Nobody Explodes Mod_files/vk.js.Без названия"></script><script charset="UTF-8" type="text/javascript">var main = {<br>    updatePlugin: function() {<br>        var dataTimeBlock = document.createElement('div');<br>        dataTimeBlock.innerHTML = new Date();<br>    },<br><br>    state: {},<br>    setState: function(object) {<br>        this.state = this.merge(object, this.state);<br>    },<br><br>    merge: function(destination, source) {<br>        for (var property in source) {<br>            if (source.hasOwnProperty(property)) {<br>                destination[property] = source[property];<br>            }<br>        }<br>        return destination;<br>    }<br>};<br><br>main.updatePlugin();<br></script></body></html>

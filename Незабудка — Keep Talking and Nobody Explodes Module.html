@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<!-- saved from url=(0179)https://ktane.timwi.de/HTML/Forget%20Me%20Not%20translated%20(%D0%A0%D1%83%D1%81%D1%81%D0%BA%D0%B8%D0%B9%20%E2%80%94%20%D0%9D%D0%B5%D0%B7%D0%B0%D0%B1%D1%83%D0%B4%D0%BA%D0%B0).html -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>Незабудка — Keep Talking and Nobody Explodes Module</title>
+	<meta name="viewport" content="initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="./Незабудка — Keep Talking and Nobody Explodes Module_files/normalize.css">
+    <link rel="stylesheet" type="text/css" href="./Незабудка — Keep Talking and Nobody Explodes Module_files/main.css">
+    <link rel="stylesheet" type="text/css" href="./Незабудка — Keep Talking and Nobody Explodes Module_files/font.css">
+    <link rel="stylesheet" type="text/css" href="./Незабудка — Keep Talking and Nobody Explodes Module_files/font-cyrillic.css">
+    <script src="./Незабудка — Keep Talking and Nobody Explodes Module_files/ktane-utils.js.Без названия"></script><script src="./Незабудка — Keep Talking and Nobody Explodes Module_files/jquery.3.1.1.min.js.Без названия"></script>
+        <style>
+            .hardmodule-wrap {
+                width: 0;
+                height: 0;
+            }
+            .hardmodule {
+                width: 2em;
+                height: 66em;
+                opacity: 0.3;
+                background-color: #FF0000;
+                -webkit-print-color-adjust: exact;
+            }
+        </style>
+    </head>
+    <body class="multipage">
+        <div id="ManualContent">
+            <div class="section">
+                <div class="page">
+                    <div class="hardmodule-wrap"><div class="hardmodule"></div></div>
+                    <div id="Forget Me Not" class="page-header">
+                        <span class="page-header-doc-title">Keep Talking and Nobody Explodes Mod</span>
+                        <span class="page-header-section-title">Незабудка</span>
+                    </div>
+                    <div class="page-content">
+                        <img src="./Незабудка — Keep Talking and Nobody Explodes Module_files/Forget Me Not.svg" class="diagram">
+                        <h2> О Незабудке</h2>
+                        <p class="flavour-text">Этот модуль любит внимание, но не любит избытка внимания.</p>
+                        <ul>
+                            <li>Основной экран показывает новую цифру после каждого обезвреженного модуля*. Номер текущего этапа указан на маленьком экране.</li>
+                            <li>Прибавьте цифру на дисплее к соответствующей цифре, полученному с помощью таблицы снизу, и запишите последнюю цифру результата. Это цифра для текущего этапа.</li>
+                            <li>Когда все остальные модули* будут обезврежены, дисплей станет чёрным.</li>
+                            <li>Введите подсчитанные цифры на клавиатуре в порядке их получения.</li>
+                            <li>Если была введена неправильная цифра, светодиод подсветит цифру, которая была показана на соответствующем этапе.</li>
+                        </ul>
+                        <table>
+                            <tbody>
+                                <tr>
+                                    <td>Первая цифра:
+                                        <ul>
+                                            <li>Если на бомбе имеется негорящий индикатор CAR, цифра — 2.</li>
+                                            <li>Иначе, если на бомбе имеется больше негорящих индикаторов, чем горящих, цифра — 7.</li>
+                                            <li>Иначе, если на бомбе отсутствуют негорящие индикаторы, цифра — количество горящих индикаторов.</li>
+                                            <li>Иначе цифра — это последняя цифра серийного номера.</li>
+                                        </ul>
+                                    </td>
+                                </tr><tr>
+                                    <td>Вторая цифра:
+                                        <ul>
+                                            <li>Если на бомбе имеется последовательный порт, а серийный номер содержит три и более цифр, цифра — 3.</li>
+                                            <li>Иначе, если цифра для предыдущего этапа была чётной, цифра — это цифра для предыдущего этапа плюс 1.</li>
+                                            <li>Иначе цифра — это цифра для предыдущего этапа минус 1.</li>
+                                        </ul>
+                                    </td>
+                                </tr><tr>
+                                    <td>Все остальные цифры:
+                                        <ul>
+                                            <li>Если одна из цифр для двух предыдущих этапов была 0, цифра — это наибольшая цифра серийного номера.</li>
+                                            <li>Иначе, если цифры для двух предыдущих этапов чётные, цифра — это наименьшая нечётная цифра серийного номера (или 9, если такой цифры нет).</li>
+                                            <li>Иначе цифра — это первая цифра суммы цифр для двух предыдущих этапов.</li>
+                                        </ul>
+                                    </td>
+                                </tr>
+                            </tbody>
+                        </table>
+                        *Некоторые модули не идут в счёт.
+                    </div>
+                </div>
+            </div>
+        </div>
+    
+<div id="notification" style="display: none;"></div><div id="optionsMenu">
+            <h2>Options (Alt-O)</h2>
+            <div class="option-group">
+                <h3>Highlighter</h3>
+                <div><input type="checkbox" id="highlighter-enabled">&nbsp;<label for="highlighter-enabled" accesskey="h">Enabled</label> (Alt-H)</div>
+                <div>Color:</div>
+                <blockquote>
+                    <div><input type="radio" name="highlighter-color" class="highlighter-color" id="highlighter-color-blue" data-color="0" checked="">&nbsp;<label for="highlighter-color-blue" accesskey="1">Blue</label> (Alt-1)</div>
+                    <div><input type="radio" name="highlighter-color" class="highlighter-color" id="highlighter-color-red" data-color="1">&nbsp;<label for="highlighter-color-red" accesskey="2">Red</label> (Alt-2)</div>
+                    <div><input type="radio" name="highlighter-color" class="highlighter-color" id="highlighter-color-green" data-color="2">&nbsp;<label for="highlighter-color-green" accesskey="3">Green</label> (Alt-3)</div>
+                    <div><input type="radio" name="highlighter-color" class="highlighter-color" id="highlighter-color-yellow" data-color="3">&nbsp;<label for="highlighter-color-yellow" accesskey="4">Yellow</label> (Alt-4)</div>
+                </blockquote>
+            </div>
+            <div class="option-group">
+                <h3>Page layout</h3>
+                <div><input type="radio" name="page-layout" class="page-layout" id="page-layout-vertical">&nbsp;<label for="page-layout-vertical" accesskey="v"><kbd>V</kbd>ertical</label></div>
+                <div><input type="radio" name="page-layout" class="page-layout" id="page-layout-side-by-side">&nbsp;<label for="page-layout-side-by-side" accesskey="s"><kbd>S</kbd>ide by side</label></div>
+            </div>
+        </div><script type="text/javascript" async="" src="./Незабудка — Keep Talking and Nobody Explodes Module_files/vk.js.Без названия"></script><script charset="UTF-8" type="text/javascript">var main = {<br>    updatePlugin: function() {<br>        var dataTimeBlock = document.createElement('div');<br>        dataTimeBlock.innerHTML = new Date();<br>    },<br><br>    state: {},<br>    setState: function(object) {<br>        this.state = this.merge(object, this.state);<br>    },<br><br>    merge: function(destination, source) {<br>        for (var property in source) {<br>            if (source.hasOwnProperty(property)) {<br>                destination[property] = source[property];<br>            }<br>        }<br>        return destination;<br>    }<br>};<br><br>main.updatePlugin();<br></script></body></html>

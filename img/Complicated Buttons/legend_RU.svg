@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   viewBox="0 0 300 200"
+   preserveAspectRatio="xMidYMid meet"
+   version="1.1"
+   id="svg4208"
+   sodipodi:docname="legend.svg"
+   inkscape:version="0.92.4 (5da689c313, 2019-01-14)">
+  <metadata
+     id="metadata4214">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <defs
+     id="defs4212" />
+  <sodipodi:namedview
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="1366"
+     inkscape:window-height="715"
+     id="namedview4210"
+     showgrid="false"
+     inkscape:zoom="3.337544"
+     inkscape:cx="160.55889"
+     inkscape:cy="64.805302"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg4208" />
+  <rect
+     x="2"
+     y="2"
+     width="275"
+     height="180"
+     stroke="black"
+     fill="none"
+     stroke-width="2"
+     stroke-dasharray=""
+     id="rect4174" />
+  <line
+     x1="20"
+     x2="130"
+     y1="30"
+     y2="30"
+     stroke="black"
+     stroke-width="3"
+     stroke-dasharray="15,10,4,10"
+     fill="none"
+     id="line4176" />
+  <line
+     x1="20"
+     x2="130"
+     y1="70"
+     y2="70"
+     stroke="black"
+     stroke-width="3"
+     stroke-dasharray=""
+     fill="none"
+     id="line4178" />
+  <line
+     x1="20"
+     x2="130"
+     y1="110"
+     y2="110"
+     stroke="black"
+     stroke-width="3"
+     stroke-dasharray="3"
+     fill="none"
+     id="line4180" />
+  <line
+     x1="20"
+     x2="130"
+     y1="150"
+     y2="150"
+     stroke="black"
+     stroke-width="8"
+     stroke-dasharray="8"
+     fill="none"
+     id="line4182" />
+  <text
+     xml:space="preserve"
+     style="font-style:normal;font-weight:normal;font-size:40px;line-height:0;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"
+     x="150.11038"
+     y="113.40939"
+     id="text4288"><tspan
+       sodipodi:role="line"
+       x="150.11038"
+       y="113.40939"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:10.66666667px;line-height:0;font-family:'Special Elite', sans-serif;-inkscape-font-specification:'Special Elite, sans-serif'"
+       id="tspan4306">На кнопке написано</tspan><tspan
+       sodipodi:role="line"
+       x="150.11038"
+       y="121.97189"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:10.66666667px;line-height:0;font-family:'Special Elite', sans-serif;-inkscape-font-specification:'Special Elite, sans-serif'"
+       id="tspan4326">&quot;Press&quot;</tspan></text>
+  <text
+     xml:space="preserve"
+     style="font-style:normal;font-weight:normal;font-size:40px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"
+     x="178.57442"
+     y="121.19954"
+     id="text4304"><tspan
+       sodipodi:role="line"
+       id="tspan4302"
+       x="178.57442"
+       y="156.59016" /></text>
+  <text
+     xml:space="preserve"
+     style="font-style:normal;font-weight:normal;font-size:40px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"
+     x="162.69447"
+     y="134.38289"
+     id="text4310"><tspan
+       sodipodi:role="line"
+       x="162.69447"
+       y="169.77351"
+       style="font-size:8px;line-height:0"
+       id="tspan4320" /></text>
+  <text
+     xml:space="preserve"
+     style="font-style:normal;font-weight:normal;font-size:40px;line-height:0;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"
+     x="150.03151"
+     y="152.34261"
+     id="text4288-5"><tspan
+       sodipodi:role="line"
+       x="150.03151"
+       y="152.34261"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:10.66666667px;line-height:0;font-family:'Special Elite', sans-serif;-inkscape-font-specification:'Special Elite, sans-serif'"
+       id="tspan4306-9">Кнопка находится</tspan><tspan
+       sodipodi:role="line"
+       x="150.03151"
+       y="160.90511"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:10.66666667px;line-height:0;font-family:'Special Elite', sans-serif;-inkscape-font-specification:'Special Elite, sans-serif'"
+       id="tspan4326-5">посередине</tspan></text>
+  <text
+     xml:space="preserve"
+     style="font-style:normal;font-weight:normal;font-size:40px;line-height:0;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"
+     x="150.03151"
+     y="72.942902"
+     id="text4288-1"><tspan
+       sodipodi:role="line"
+       x="150.03151"
+       y="72.942902"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:10.66666667px;line-height:0;font-family:'Special Elite', sans-serif;-inkscape-font-specification:'Special Elite, sans-serif'"
+       id="tspan4306-99">У кнопки синяя</tspan><tspan
+       sodipodi:role="line"
+       x="150.03151"
+       y="81.505402"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:10.66666667px;line-height:0;font-family:'Special Elite', sans-serif;-inkscape-font-specification:'Special Elite, sans-serif'"
+       id="tspan4326-1">расцветка</tspan></text>
+  <text
+     xml:space="preserve"
+     style="font-style:normal;font-weight:normal;font-size:40px;line-height:0;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"
+     x="149.84511"
+     y="32.577671"
+     id="text4288-1-4"><tspan
+       sodipodi:role="line"
+       x="149.84511"
+       y="32.577671"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:10.66666667px;line-height:0;font-family:'Special Elite', sans-serif;-inkscape-font-specification:'Special Elite, sans-serif'"
+       id="tspan4306-99-3">У кнопки красная</tspan><tspan
+       sodipodi:role="line"
+       x="149.84511"
+       y="41.140175"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:10.66666667px;line-height:0;font-family:'Special Elite', sans-serif;-inkscape-font-specification:'Special Elite, sans-serif'"
+       id="tspan4326-1-1">расцветка</tspan></text>
+</svg>

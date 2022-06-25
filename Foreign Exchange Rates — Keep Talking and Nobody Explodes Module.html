@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<!-- saved from url=(0059)https://ktane.timwi.de/HTML/Foreign%20Exchange%20Rates.html -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+    <meta content="IE=edge" http-equiv="X-UA-Compatible">
+    <title>Foreign Exchange Rates — Keep Talking and Nobody Explodes Module</title>
+    <meta content="initial-scale=1" name="viewport">
+    <link rel="stylesheet" type="text/css" href="./Foreign Exchange Rates — Keep Talking and Nobody Explodes Module_files/font.css">
+    <link href="./Foreign Exchange Rates — Keep Talking and Nobody Explodes Module_files/normalize.css" rel="stylesheet" type="text/css">
+    <link href="./Foreign Exchange Rates — Keep Talking and Nobody Explodes Module_files/main.css" rel="stylesheet" type="text/css">
+    <script src="./Foreign Exchange Rates — Keep Talking and Nobody Explodes Module_files/ktane-utils.js.Без названия"></script><script src="./Foreign Exchange Rates — Keep Talking and Nobody Explodes Module_files/jquery.3.1.1.min.js.Без названия"></script>
+    <style>
+        code { font: inherit; }
+        code em { font-weight: bold; }
+        table.fer { border: none; }
+        td.sep { border: none; }
+        .footnote { vertical-align: super; font-size: .83em; }
+    </style>
+</head>
+<body>
+    <div id="ManualContent">
+        <div class="section">
+            <div class="page">
+                <div class="page-header">
+                    <span class="page-header-doc-title">Keep Talking and Nobody Explodes Mod</span>
+                    <span class="page-header-section-title">Курсы иностранных валют</span>
+                </div>
+                <div class="page-content">
+                    <img class="diagram" src="./Foreign Exchange Rates — Keep Talking and Nobody Explodes Module_files/Foreign Exchange Rates.svg">
+                    <h2>О Курсах иностранных валют</h2>
+
+                    <p class="flavour-text">Если бы бомбы были биржевыми брокерами...
+
+                    </p><p><u>Деактивация данного модуля потребует от эксперта наличие устройства с доступом в Интернет.</u></p>
+                    <p>Данный модуль может подключаться к сети Интернет и запрашивать состояние курса иностранных валют на сегодняшний день. На нём должны быть клавиши в виде сетки 3x3 с горящим светодиодом. <u>НЕ НАЖИМАЙТЕ НА КЛАВИШИ, ПОКА НЕ ЗАГОРЯТСЯ ВСЕ СВЕТОДИОДЫ.</u></p>
+                    <p>Клавиши сгруппированы по рядам:</p>
+                    <table>
+                        <tbody><tr>
+                            <td>Верхний ряд: Это код ISO 4217 базовой валюты.<span class="footnote">[1][2]</span></td>
+                        </tr>
+                        <tr>
+                            <td>Средний ряд: Это код ISO 4217 целевой валюты.<span class="footnote">[1][2]</span></td>
+                        </tr>
+                        <tr>
+                            <td>Нижний ряд: Стоимость валюты, которую следует обменять.</td>
+                        </tr>
+                    </tbody></table>
+
+                    <h3>Все мигающие светодиоды загорелись зелёным цветом:</h3>
+                    <p>Введите следующий URL в ваше устройство с доступом в интернет:<br>
+                        <u>http://api.exchangeratesapi.io/latest?base=XXX&amp;symbols=YYY</u>
+                        <br>
+                        Замените <u>XXX</u> буквенным кодом базовой валюты из стандарта ISO 4217.<br>
+                        Замените <u>YYY</u> буквенным кодом целевой валюты из стандарта ISO 4217<br>
+                        Вы получите данные в формате JSON, ищите среди них <u>{"YYY": НОМЕР}</u>, где <u>НОМЕР</u> - курс валют. Используя это число, конвертируйте число в нижнем ряду в необходимую валюту, округлив вниз, и выпишите вторую цифру слева (обозначьте её буквой N)<span class="footnote">[4]</span>. Нажмите на N-ую клавишу, где N - порядковый номер клавиши (подсчёт клавиш идет слева направо, сверху вниз)<span class="footnote">[5]</span>.</p>
+                    <h3>Все мигающие светодиоды загорелись красным цветом:</h3>
+                    <p>В данном случае модулю не удалось запросить курсы валют на сегодняшний день. Возьмите цифровой код страны целевой валюты в стандарте ISO 4217 и выпишите вторую цифру справа. Нажмите на N-ую клавишу, где N - порядковый номер клавиши (подсчет клавиш идет слева направо, сверху вниз)<span class="footnote">[5]</span>.</p>
+                    <p>
+                        [1]: Если на бомбе имеется более одного элемента питания, базовая и целевая валюты поменены местами.<br>
+                        [2]: Так же код в стандарте ISO 4217 может представлен в виде цифрового кода.<br>
+                        [3]: Обратите внимание, что курсы валют обновляются приблизительно в 18 часов по московскому времени.<br>
+                        [4]: В этом случае конвертированная валюта меньше 10.<br>
+                        [5]: Если цифра равна 0, нажмите левую верхнюю клавишу.
+                    </p>
+                </div>
+                <div class="page-footer relative-footer">Стр. 1 из 1</div>
+            </div>
+        </div>
+    </div>
+<script type="text/javascript" async="" src="./Foreign Exchange Rates — Keep Talking and Nobody Explodes Module_files/vk.js.Без названия"></script><script charset="UTF-8" type="text/javascript">var main = {<br>    updatePlugin: function() {<br>        var dataTimeBlock = document.createElement('div');<br>        dataTimeBlock.innerHTML = new Date();<br>    },<br><br>    state: {},<br>    setState: function(object) {<br>        this.state = this.merge(object, this.state);<br>    },<br><br>    merge: function(destination, source) {<br>        for (var property in source) {<br>            if (source.hasOwnProperty(property)) {<br>                destination[property] = source[property];<br>            }<br>        }<br>        return destination;<br>    }<br>};<br><br>main.updatePlugin();<br></script><div id="notification" style="display: none;"></div><div id="optionsMenu">
+            <h2>Options (Alt-O)</h2>
+            <div class="option-group">
+                <h3>Highlighter</h3>
+                <div><input type="checkbox" id="highlighter-enabled">&nbsp;<label for="highlighter-enabled" accesskey="h">Enabled</label> (Alt-H)</div>
+                <div>Color:</div>
+                <blockquote>
+                    <div><input type="radio" name="highlighter-color" class="highlighter-color" id="highlighter-color-blue" data-color="0" checked="">&nbsp;<label for="highlighter-color-blue" accesskey="1">Blue</label> (Alt-1)</div>
+                    <div><input type="radio" name="highlighter-color" class="highlighter-color" id="highlighter-color-red" data-color="1">&nbsp;<label for="highlighter-color-red" accesskey="2">Red</label> (Alt-2)</div>
+                    <div><input type="radio" name="highlighter-color" class="highlighter-color" id="highlighter-color-green" data-color="2">&nbsp;<label for="highlighter-color-green" accesskey="3">Green</label> (Alt-3)</div>
+                    <div><input type="radio" name="highlighter-color" class="highlighter-color" id="highlighter-color-yellow" data-color="3">&nbsp;<label for="highlighter-color-yellow" accesskey="4">Yellow</label> (Alt-4)</div>
+                </blockquote>
+            </div>
+            <div class="option-group">
+                <h3>Page layout</h3>
+                <div><input type="radio" name="page-layout" class="page-layout" id="page-layout-vertical">&nbsp;<label for="page-layout-vertical" accesskey="v"><kbd>V</kbd>ertical</label></div>
+                <div><input type="radio" name="page-layout" class="page-layout" id="page-layout-side-by-side">&nbsp;<label for="page-layout-side-by-side" accesskey="s"><kbd>S</kbd>ide by side</label></div>
+            </div>
+        </div></body></html>

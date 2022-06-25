@@ -1,0 +1,331 @@
+<!DOCTYPE html>
+<!-- saved from url=(0046)https://ktane.timwi.de/HTML/Binary%20LEDs.html -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+    <meta content="IE=edge" http-equiv="X-UA-Compatible">
+    <title>Двоичные светодиоды — Keep Talking and Nobody Explodes Module</title>
+    <meta content="initial-scale=1" name="viewport">
+    <link rel="stylesheet" type="text/css" href="css/font.css">
+    <link href="css/normalize.css" rel="stylesheet" type="text/css">
+    <link href="css/main.css" rel="stylesheet" type="text/css">
+    <script src="js/ktane-utils.js"></script><script src="js/jquery.3.1.1.min.js"></script>
+    <style>
+        table { margin-top: 1em; }
+    </style>
+</head>
+<body>
+    <div class="section">
+        <div class="page page-bg-01">
+            <div class="page-header">
+                <span class="page-header-doc-title">Keep Talking and Nobody Explodes Mod</span>
+                <span class="page-header-section-title">Двоичные светодиоды</span>
+            </div>
+            <div class="page-content">
+                <img class="diagram" src="img/Component/Binary LEDs.svg">
+                <h2>О Двоичных светодиодах</h2>
+                <p class="flavour-text">
+                    Двоичный код — способ общения с помощью маленьких мигающих лампочек, проверенный временем.
+                </p>
+
+                <ul>
+                    <li>Переведите двоичный код, идущий от пяти светодиодов. Самый левый бит — самый старший.
+                    </li><li>Код будет соответствовать по одной из восьми числовых последовательностей ниже. Последовательность идет от начала и до конца, а затем обратно без повторения концов последовательности.
+                    </li><li>Под некоторыми числами в последовательности имеются буквы. Перережьте провод с совпадающим цветом, когда светодиоды показывают одно из чисел с буквами.
+                    </li><li>Необходимо перерезать только один провод для успешной деактивации.
+                </li></ul>
+                <table class="repeaters-table">
+                    <tbody><tr>
+                        <td>17</td>
+                        <td>15</td>
+                        <td>6</td>
+                        <td>2</td>
+                        <td>24</td>
+                        <td>8</td>
+                        <td>26</td>
+                        <td>25</td>
+                        <td>21</td>
+                        <td>24</td>
+                        <td>1</td>
+                        <td>15</td>
+                        <td>18</td>
+                        <td>8</td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td>З</td>
+                        <td></td>
+                        <td>К</td>
+                        <td></td>
+                        <td>С</td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td>18</td>
+                        <td>15</td>
+                        <td>19</td>
+                        <td>31</td>
+                        <td>12</td>
+                        <td>6</td>
+                        <td>19</td>
+                        <td>21</td>
+                        <td>11</td>
+                        <td>16</td>
+                        <td>19</td>
+                        <td>2</td>
+                        <td>1</td>
+                        <td>29</td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td>С</td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td>З</td>
+                        <td></td>
+                        <td></td>
+                        <td>К</td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td>8</td>
+                        <td>25</td>
+                        <td>1</td>
+                        <td>15</td>
+                        <td>20</td>
+                        <td>15</td>
+                        <td>9</td>
+                        <td>3</td>
+                        <td>6</td>
+                        <td>24</td>
+                        <td>1</td>
+                        <td>24</td>
+                        <td>5</td>
+                        <td>26</td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td>З</td>
+                        <td>С</td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td>К</td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td>21</td>
+                        <td>27</td>
+                        <td>6</td>
+                        <td>12</td>
+                        <td>27</td>
+                        <td>20</td>
+                        <td>7</td>
+                        <td>1</td>
+                        <td>19</td>
+                        <td>15</td>
+                        <td>3</td>
+                        <td>13</td>
+                        <td>9</td>
+                        <td>28</td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td>С</td>
+                        <td>К</td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td>З</td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td>3</td>
+                        <td>21</td>
+                        <td>14</td>
+                        <td>22</td>
+                        <td>7</td>
+                        <td>28</td>
+                        <td>16</td>
+                        <td>27</td>
+                        <td>22</td>
+                        <td>17</td>
+                        <td>26</td>
+                        <td>2</td>
+                        <td>31</td>
+                        <td>15</td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td>З</td>
+                        <td></td>
+                        <td></td>
+                        <td>С</td>
+                        <td></td>
+                        <td>К</td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td>8</td>
+                        <td>22</td>
+                        <td>30</td>
+                        <td>19</td>
+                        <td>1</td>
+                        <td>25</td>
+                        <td>31</td>
+                        <td>16</td>
+                        <td>9</td>
+                        <td>7</td>
+                        <td>6</td>
+                        <td>13</td>
+                        <td>9</td>
+                        <td>7</td>
+                    </tr>
+                    <tr>
+                        <td>К</td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td>С</td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td>З</td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td>5</td>
+                        <td>18</td>
+                        <td>12</td>
+                        <td>7</td>
+                        <td>5</td>
+                        <td>12</td>
+                        <td>31</td>
+                        <td>16</td>
+                        <td>10</td>
+                        <td>15</td>
+                        <td>17</td>
+                        <td>9</td>
+                        <td>12</td>
+                        <td>25</td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td></td>
+                        <td>К</td>
+                        <td></td>
+                        <td></td>
+                        <td>З</td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td>С</td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td>4</td>
+                        <td>20</td>
+                        <td>18</td>
+                        <td>25</td>
+                        <td>20</td>
+                        <td>4</td>
+                        <td>24</td>
+                        <td>29</td>
+                        <td>17</td>
+                        <td>16</td>
+                        <td>12</td>
+                        <td>16</td>
+                        <td>29</td>
+                        <td>19</td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td>З</td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td>К</td>
+                        <td>С</td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                </tbody></table>
+                <table class="repeaters-table">
+                    <tbody><tr>
+                        <th rowspan="3">Цвет:</th>
+                        <td>К</td>
+                        <td>красный</td>
+                    </tr>
+                    <tr>
+                        <td>З</td>
+                        <td>зелёный</td>
+                    </tr>
+                    <tr>
+                        <td>С</td>
+                        <td>синий</td>
+                    </tr>
+                </tbody></table>
+            </div>
+            <div class="page-footer relative-footer">Стр. 1 из 1</div>
+        </div>
+    </div>
+<div id="notification" style="display: none;"></div><div id="optionsMenu">
+            <h2>Options (Alt-O)</h2>
+            <div class="option-group">
+                <h3>Highlighter</h3>
+                <div><input type="checkbox" id="highlighter-enabled">&nbsp;<label for="highlighter-enabled" accesskey="h">Enabled</label> (Alt-H)</div>
+                <div>Color:</div>
+                <blockquote>
+                    <div><input type="radio" name="highlighter-color" class="highlighter-color" id="highlighter-color-blue" data-color="0" checked="">&nbsp;<label for="highlighter-color-blue" accesskey="1">Blue</label> (Alt-1)</div>
+                    <div><input type="radio" name="highlighter-color" class="highlighter-color" id="highlighter-color-red" data-color="1">&nbsp;<label for="highlighter-color-red" accesskey="2">Red</label> (Alt-2)</div>
+                    <div><input type="radio" name="highlighter-color" class="highlighter-color" id="highlighter-color-green" data-color="2">&nbsp;<label for="highlighter-color-green" accesskey="3">Green</label> (Alt-3)</div>
+                    <div><input type="radio" name="highlighter-color" class="highlighter-color" id="highlighter-color-yellow" data-color="3">&nbsp;<label for="highlighter-color-yellow" accesskey="4">Yellow</label> (Alt-4)</div>
+                </blockquote>
+            </div>
+            <div class="option-group">
+                <h3>Page layout</h3>
+                <div><input type="radio" name="page-layout" class="page-layout" id="page-layout-vertical">&nbsp;<label for="page-layout-vertical" accesskey="v"><kbd>V</kbd>ertical</label></div>
+                <div><input type="radio" name="page-layout" class="page-layout" id="page-layout-side-by-side">&nbsp;<label for="page-layout-side-by-side" accesskey="s"><kbd>S</kbd>ide by side</label></div>
+            </div>
+        </div><script type="text/javascript" async="" src="./Binary LEDs — Keep Talking and Nobody Explodes Module_files/vk.js.Без названия"></script><script charset="UTF-8" type="text/javascript">var main = {<br>    updatePlugin: function() {<br>        var dataTimeBlock = document.createElement('div');<br>        dataTimeBlock.innerHTML = new Date();<br>    },<br><br>    state: {},<br>    setState: function(object) {<br>        this.state = this.merge(object, this.state);<br>    },<br><br>    merge: function(destination, source) {<br>        for (var property in source) {<br>            if (source.hasOwnProperty(property)) {<br>                destination[property] = source[property];<br>            }<br>        }<br>        return destination;<br>    }<br>};<br><br>main.updatePlugin();<br></script></body></html>

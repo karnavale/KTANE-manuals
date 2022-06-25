@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<!-- saved from url=(0045)https://ktane.timwi.de/HTML/Sea%20Shells.html -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>Морские ракушки — Keep Talking and Nobody Explodes Module</title>
+	<meta name="viewport" content="initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="./Sea Shells — Keep Talking and Nobody Explodes Module_files/font.css">
+	<link rel="stylesheet" type="text/css" href="./Sea Shells — Keep Talking and Nobody Explodes Module_files/normalize.css">
+	<link rel="stylesheet" type="text/css" href="./Sea Shells — Keep Talking and Nobody Explodes Module_files/main.css">
+	<script src="./Sea Shells — Keep Talking and Nobody Explodes Module_files/ktane-utils.js.Без названия"></script><script src="./Sea Shells — Keep Talking and Nobody Explodes Module_files/jquery.3.1.1.min.js.Без названия"></script>
+</head>
+<body>
+<div class="section">
+    <div class="page page-bg-02">
+        <div class="page-header">
+			<span class="page-header-doc-title">Keep Talking and Nobody Explodes Mod</span>
+			<span class="page-header-section-title">Морские ракушки</span>
+		</div>
+		<div class="page-content">
+			<img src="./Sea Shells — Keep Talking and Nobody Explodes Module_files/Sea Shells.svg" class="diagram">
+			<h2>О Морских ракушках</h2>
+			<p class="flavour-text">При обезвреживании бомб важна чёткая коммуникация. Этот модуль как будто не хочет быть обезвреженным.</p>
+			<ul>
+				<li>Данный модуль состоит из экрана и пяти кнопок.</li>
+				<li>На экране показана фраза. Первые два слова данной фразы относятся к рядам Таблицы 1. Третье и четвертое слово относятся к столбцам Таблицы 1. Оставшиеся слова относятся к Таблице 2.</li>
+				<li>Таблица 1 даст вам код, а Таблица 2 даст ключ, который поможет перевести код в последовательность слов.</li>
+				<li>С помощью кнопок введите последовательность слов. Нажатие на неправильную кнопку вызовет ошибку и обнулит текущий этап модуля.</li>
+				<li>Ввод верной последовательности три раза подряд деактивирует модуль.</li>
+			</ul>
+			<h4>Таблица 1:</h4>
+			<table class="sea-shells-table-1">
+				<tbody>
+					<tr>
+						<th class="sea-shells-spacer-1"> </th>
+						<th>SEA SHELLS</th>
+						<th>SHE SHELLS</th>
+						<th>SEA SELLS</th>
+						<th>SHE SELLS</th>
+					</tr>
+					<tr>
+						<th>SHE SELLS</th>
+						<td>BDABDAB</td>
+						<td>ACEEAC</td>
+						<td>EACEACE</td>
+						<td>DAABDAB</td>
+					</tr>
+					<tr>
+						<th>SHE SHELLS</th>
+						<td>BEEBBE</td>
+						<td>CDCCDB</td>
+						<td>EAEAEA</td>
+						<td>BEEDA</td>
+					</tr>
+					<tr>
+						<th>SEA SHELLS</th>
+						<td>ABABA</td>
+						<td>EAAEEA</td>
+						<td>DBEAC</td>
+						<td>ABDBAA</td>
+					</tr>
+					<tr>
+						<th>SEA SELLS</th>
+						<td>ACACEAC</td>
+						<td>DBAEC</td>
+						<td>EBDADAB</td>
+						<td>CECEC</td>
+					</tr>
+				</tbody>
+			</table>
+			<h4>Таблица 2:</h4>
+			<table class="sea-shells-table-2">
+				<tbody>
+					<tr>
+						<th>ON THE SEA SHORE</th>
+						<td class="sea-shells-spacer-2">A = shoe<br>D = sit</td>
+						<td class="sea-shells-spacer-2">B = shih tzu<br>E = sushi</td>
+						<td>C = she<br>&nbsp;</td>
+					</tr>
+					<tr>
+						<th>ON THE SHE SORE</th>
+						<td>A = can<br>D = 2</td>
+						<td>B = toucan<br>E = cancan</td>
+						<td>C = tutu<br>&nbsp;</td>
+					</tr>
+					<tr>
+						<th>ON THE SHE SURE</th>
+						<td>A = witch<br>D = twitch</td>
+						<td>B = switch<br>E = stitch</td>
+						<td>C = itch<br>&nbsp;</td>
+					</tr>
+					<tr>
+						<th>ON THE SEESAW</th>
+						<td>A = burglar alarm<br>D = burger</td>
+						<td>B = Bulgaria<br>E = llama</td>
+						<td>C = armour<br>&nbsp;</td>
+					</tr>
+				</tbody>
+			</table>
+		</div>
+	</div>
+</div>
+
+<div id="notification" style="display: none;"></div><div id="optionsMenu">
+            <h2>Options (Alt-O)</h2>
+            <div class="option-group">
+                <h3>Highlighter</h3>
+                <div><input type="checkbox" id="highlighter-enabled">&nbsp;<label for="highlighter-enabled" accesskey="h">Enabled</label> (Alt-H)</div>
+                <div>Color:</div>
+                <blockquote>
+                    <div><input type="radio" name="highlighter-color" class="highlighter-color" id="highlighter-color-blue" data-color="0" checked="">&nbsp;<label for="highlighter-color-blue" accesskey="1">Blue</label> (Alt-1)</div>
+                    <div><input type="radio" name="highlighter-color" class="highlighter-color" id="highlighter-color-red" data-color="1">&nbsp;<label for="highlighter-color-red" accesskey="2">Red</label> (Alt-2)</div>
+                    <div><input type="radio" name="highlighter-color" class="highlighter-color" id="highlighter-color-green" data-color="2">&nbsp;<label for="highlighter-color-green" accesskey="3">Green</label> (Alt-3)</div>
+                    <div><input type="radio" name="highlighter-color" class="highlighter-color" id="highlighter-color-yellow" data-color="3">&nbsp;<label for="highlighter-color-yellow" accesskey="4">Yellow</label> (Alt-4)</div>
+                </blockquote>
+            </div>
+            <div class="option-group">
+                <h3>Page layout</h3>
+                <div><input type="radio" name="page-layout" class="page-layout" id="page-layout-vertical">&nbsp;<label for="page-layout-vertical" accesskey="v"><kbd>V</kbd>ertical</label></div>
+                <div><input type="radio" name="page-layout" class="page-layout" id="page-layout-side-by-side">&nbsp;<label for="page-layout-side-by-side" accesskey="s"><kbd>S</kbd>ide by side</label></div>
+            </div>
+        </div><script type="text/javascript" async="" src="./Sea Shells — Keep Talking and Nobody Explodes Module_files/vk.js.Без названия"></script><script charset="UTF-8" type="text/javascript">var main = {<br>    updatePlugin: function() {<br>        var dataTimeBlock = document.createElement('div');<br>        dataTimeBlock.innerHTML = new Date();<br>    },<br><br>    state: {},<br>    setState: function(object) {<br>        this.state = this.merge(object, this.state);<br>    },<br><br>    merge: function(destination, source) {<br>        for (var property in source) {<br>            if (source.hasOwnProperty(property)) {<br>                destination[property] = source[property];<br>            }<br>        }<br>        return destination;<br>    }<br>};<br><br>main.updatePlugin();<br></script></body></html>

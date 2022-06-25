@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+		<title>Порядок проведения — Keep Talking and Nobody Explodes Mod</title>
+		
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="initial-scale=1">
+		<link rel="stylesheet" type="text/css" href="./Point of Order — Keep Talking and Nobody Explodes Mod_files/normalize.css">
+		<link rel="stylesheet" type="text/css" href="./Point of Order — Keep Talking and Nobody Explodes Mod_files/main.css">
+		<link rel="stylesheet" type="text/css" href="./Point of Order — Keep Talking and Nobody Explodes Mod_files/font.css">
+		<script src="./Point of Order — Keep Talking and Nobody Explodes Mod_files/ktane-utils.js.Без названия"></script><script src="./Point of Order — Keep Talking and Nobody Explodes Mod_files/jquery.3.1.1.min.js.Без названия"></script>
+        <style>
+            ul, li, p {
+                margin: .5em 0;
+            }
+            .red-suit {
+                color: red;
+            }
+            .red-suit, .black-suit {
+                font-size: 180%;
+            }
+            td.suit-rule {
+                white-space: nowrap;
+                padding: .1em .6em 0;
+            }
+            th {
+                text-align: center;
+            }
+        </style>
+	</head>
+	<body>
+		<div class="section">
+			<div class="page page-bg-07">
+				<div class="page-header">
+					<span class="page-header-doc-title">Keep Talking and Nobody Explodes Mod</span>
+					<span class="page-header-section-title">Порядок проведения</span>
+				</div>
+				<div class="page-content">
+					<img src="./Point of Order — Keep Talking and Nobody Explodes Mod_files/Point of Order.svg" class="diagram">
+					<h2>О Порядке проведения</h2>
+					<p class="flavour-text">Здесь, в KTANE, мы играем в странную игру Мао с 4 картами. Игра начинается с меня и идет по часовой стрелке.</p>
+
+                    <ul>
+                        <li>Приветствуем вас на игре в Мао. Вы как раз вовремя. Мы уже разыграли 5 карт в соответствии с правилами игры. 
+                        </li><li>У вас в руке есть 4 карты. Как только вы перевернули карты, в течение 5 секунд вы должны сыграть правильную карту, чтобы деактивировать модуль.
+                        </li><li>Если за 5 секунд вы не успеете сделать ход или сыграете неправильную карту, это вызовет ошибку. Также взамен вы получите другие 4 карты.
+                    </li></ul>
+
+                    <p>
+                        Чтобы понять, какие правила действуют на данный момент, просмотрите сыгранные ранее карты и определите <em>два</em> действующих правила и одно недействующее:
+                    </p>
+
+                    <ol>
+                        <li>Просмотрите первый и второй символ серийного номера. В зависимости от того, чем являются символы, числом или буквой, масть следующей карты должна быть сыграна в соответствии с правилами:
+                            <table>
+                                <tbody><tr><th rowspan="2">Первый символ</th><th rowspan="2">Второй символ</th><th colspan="4">Ранее сыгранная масть</th></tr>
+                                <tr><th><span class="black-suit">♠</span></th><th><span class="red-suit">♥</span></th><th><span class="black-suit">♣</span></th><th><span class="red-suit">♦</span></th></tr>
+                                <tr><th>Буква</th><th>Буква</th><td class="suit-rule"><span class="black-suit">♠</span> или <span class="red-suit">♥</span></td><td class="suit-rule"><span class="red-suit">♥</span> или <span class="black-suit">♣</span></td><td class="suit-rule"><span class="black-suit">♣</span> или <span class="red-suit">♦</span></td><td class="suit-rule"><span class="red-suit">♦</span> или <span class="black-suit">♠</span></td></tr>
+                                <tr><th>Буква</th><th>Число</th><td class="suit-rule"><span class="black-suit">♠</span> или <span class="red-suit">♦</span></td><td class="suit-rule"><span class="red-suit">♥</span> или <span class="black-suit">♠</span></td><td class="suit-rule"><span class="black-suit">♣</span> или <span class="red-suit">♥</span></td><td class="suit-rule"><span class="red-suit">♦</span> или <span class="black-suit">♣</span></td></tr>
+                                <tr><th>Число</th><th>Буква</th><td class="suit-rule"><span class="red-suit">♥</span> или <span class="black-suit">♣</span></td><td class="suit-rule"><span class="black-suit">♣</span> или <span class="red-suit">♦</span></td><td class="suit-rule"><span class="red-suit">♦</span> или <span class="black-suit">♠</span></td><td class="suit-rule"><span class="black-suit">♠</span> или <span class="red-suit">♥</span></td></tr>
+                                <tr><th>Число</th><th>Число</th><td class="suit-rule"><span class="red-suit">♦</span> или <span class="black-suit">♣</span></td><td class="suit-rule"><span class="black-suit">♠</span> или <span class="red-suit">♦</span></td><td class="suit-rule"><span class="red-suit">♥</span> или <span class="black-suit">♠</span></td><td class="suit-rule"><span class="black-suit">♣</span> или <span class="red-suit">♥</span></td></tr>
+                            </tbody></table>
+                        </li><li>Возьмите позицию четвертого символа серийного номера в алфавите и прибавляйте/отнимайте 3, пока число не будет в диапазоне от 3 до 5. Достоинства карт должны чередоваться между делящимися или неделящимися на данное число.</li>
+                        <li>Возьмите позицию пятого символа серийного номера в алфавите и прибавляйте/отнимайте 3, пока число не будет в диапазоне от 0 до 2. Назовем данное число <var>x</var>. Достоинства смежных карт должны быть отличаться на  <var>x</var> + 2 или <var>x</var> + 3. (переходы через 1 и 13 разрешены)</li>
+                    </ol>
+
+                    <p>Достоинства карт считаются от единицы (Туз) до тринадцати (Король).</p>
+
+                    <p>Сыграйте одну верную карту из четырех, руководствуясь двумя действующими правилами из трёх.</p>
+				</div>
+				<div class="page-footer relative-footer">Стр. 1 из 1</div>
+			</div>
+		</div>
+	
+<div id="notification" style="display: none;"></div><div id="optionsMenu">
+            <h2>Options (Alt-O)</h2>
+            <div class="option-group">
+                <h3>Highlighter</h3>
+                <div><input type="checkbox" id="highlighter-enabled">&nbsp;<label for="highlighter-enabled" accesskey="h">Enabled</label> (Alt-H)</div>
+                <div>Color:</div>
+                <blockquote>
+                    <div><input type="radio" name="highlighter-color" class="highlighter-color" id="highlighter-color-blue" data-color="0" checked="">&nbsp;<label for="highlighter-color-blue" accesskey="1">Blue</label> (Alt-1)</div>
+                    <div><input type="radio" name="highlighter-color" class="highlighter-color" id="highlighter-color-red" data-color="1">&nbsp;<label for="highlighter-color-red" accesskey="2">Red</label> (Alt-2)</div>
+                    <div><input type="radio" name="highlighter-color" class="highlighter-color" id="highlighter-color-green" data-color="2">&nbsp;<label for="highlighter-color-green" accesskey="3">Green</label> (Alt-3)</div>
+                    <div><input type="radio" name="highlighter-color" class="highlighter-color" id="highlighter-color-yellow" data-color="3">&nbsp;<label for="highlighter-color-yellow" accesskey="4">Yellow</label> (Alt-4)</div>
+                </blockquote>
+            </div>
+            <div class="option-group">
+                <h3>Page layout</h3>
+                <div><input type="radio" name="page-layout" class="page-layout" id="page-layout-vertical">&nbsp;<label for="page-layout-vertical" accesskey="v"><kbd>V</kbd>ertical</label></div>
+                <div><input type="radio" name="page-layout" class="page-layout" id="page-layout-side-by-side">&nbsp;<label for="page-layout-side-by-side" accesskey="s"><kbd>S</kbd>ide by side</label></div>
+            </div>
+        </div><script type="text/javascript" async="" src="./Point of Order — Keep Talking and Nobody Explodes Mod_files/vk.js.Без названия"></script><script charset="UTF-8" type="text/javascript">var main = {<br>    updatePlugin: function() {<br>        var dataTimeBlock = document.createElement('div');<br>        dataTimeBlock.innerHTML = new Date();<br>    },<br><br>    state: {},<br>    setState: function(object) {<br>        this.state = this.merge(object, this.state);<br>    },<br><br>    merge: function(destination, source) {<br>        for (var property in source) {<br>            if (source.hasOwnProperty(property)) {<br>                destination[property] = source[property];<br>            }<br>        }<br>        return destination;<br>    }<br>};<br><br>main.updatePlugin();<br></script></body></html>
